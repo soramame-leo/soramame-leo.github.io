@@ -1,0 +1,77 @@
+/* common */
+body{
+  margin-top: 0;
+}
+img{
+  vertical-align: bottom;
+}
+
+h1, p,h2
+{
+  margin: 0;
+}
+
+/* header */
+header{
+  background :#efefef;
+}
+header .container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+}
+header .icon{
+  border-radius: 50%;
+}
+
+header .container div+div{
+  margin-left: 32px;
+}
+header h1{
+  font-weight: normal;
+  font-size: 24px;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header ul li+li{
+  margin-left:10px;
+}
+/* main */
+main .container{
+  width: 400px;
+  margin: 0 auto;
+  
+}
+
+main h1{
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  padding: 60px 0 ;
+}
+main h2{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 16px;
+
+}
+main p{
+  line-height:1.8 ;
+  margin-top: 16px;
+}
+main section+section {
+  margin-top: 60px;
+}
+
+/* footer */
+footer{
+  padding: 60 o;
+  text-align: center;
+  color: #aaa;
